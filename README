@@ -1,0 +1,30 @@
+This dataset was obtained throuh Metro North Hospital and Health Service and the Royal Brisbane and Women's Hospital (RBWH). 
+Description: This dataset comprises 63 patients with TOF-MRA scans, containing 85 intracranial aneurysms. 24 of these patients underwent interval surveillance imaging. 
+
+Please cite the following reference if you use this dataset: added upon publication
+
+
+## Dataset Organisation
+
+Every original folder contains the TOF-MRA angiography of each subject. 
+
+The "derivatives" folder contains clinician segmentations and annotations within a given subject on a single scan session. The majority of subjects will include 5 sub-folders as below:
+
+1) "3D Model": Contains an STL (standard tesselation language) model for the aneurysm-only, the aneurysm with parent artery, and the parent-artery-only. Subjects with multiple aneurysms will have each STL model per aneurysm. 
+2) "Mask": Contains the nifti angiography with an overlay of the aneurysm mask assigned a pixel value of zero and burnt into the image. 
+3) "Nifti Aneurysm Only": Contains a nifti file of only the aneurysm segmented mask. 
+4) "Nifti with Parent Artery": Contains a nifti file of the aneurysm with parent artery segmented mask.
+5) "Slicer": Contains the 3D Slicer scene used for segmentation and annotation of the aneurysms and parent arteries. 
+
+
+## Details related to access to the data
+- Contact person: Mark C. Allenby (m.allenby@uq.edu.au) 
+
+## Overview
+- TOF-MRA scans acquired through Metro North Health at various institutions between 2008 and 2022. 
+- This dataset is intended for research into intracranial aneurysms, and can be used in applications such as the development of automated detection algorithms, in computational fluid dynamics studies, for surgical training models and developing surgical guides, and for evaluating cell behaviour and dynamics in in vitro aneurysm models. 
+- The supplementary documents provided includes a summary of MR image acquisition parameters for all subjects, patient gender and age, characterises aneurysm location and size, and also provides signal-to-noise (SNR) and contrast-to-noise (CNR) ratios for all scans that were clinically annotated. It might be necessary for users of this dataset to consult the SNR and CNR for patients intended for further research and analysis to ensure accurate segmentation can be achieved.
+
+
+## Missing Data
+Aneurysms in some subjects have been segmentated and annotated using DSA or CTA scans, and thus only STL models have been provided for these subjects as the original files require further de-identification. 
