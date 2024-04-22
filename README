@@ -10,7 +10,7 @@ Every original folder contains the TOF-MRA angiography of each subject.
 
 The "derivatives" folder contains clinician segmentations and annotations within a given subject on a single scan session. The majority of subjects will include 5 sub-folders as below:
 
-1) "3D Model": Contains an STL (standard tesselation language) model for the aneurysm-only, the aneurysm with parent artery, and the parent-artery-only. Subjects with multiple aneurysms will have each STL model per aneurysm. 
+1) "3D Model": Contains an STL (standard tesselation language) model for the aneurysm-only, the aneurysm with parent artery, and the parent-artery-only. Subjects with multiple aneurysms will have an STL model per aneurysm. 
 2) "Mask": Contains the nifti angiography with an overlay of the aneurysm mask assigned a pixel value of zero and burnt into the image. 
 3) "Nifti Aneurysm Only": Contains a nifti file of only the aneurysm segmented mask. 
 4) "Nifti with Parent Artery": Contains a nifti file of the aneurysm with parent artery segmented mask.
