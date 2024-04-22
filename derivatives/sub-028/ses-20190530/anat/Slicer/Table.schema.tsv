@@ -1,0 +1,7 @@
+columnName	longName	Plugin	name	description	unitLabel	DICOM.QuantityCode	DICOM.UnitsCode	DICOM.MeasurementMethodCode	type	componentNames
+Segment	Segment								string	
+Number of voxels [voxels]	Number of voxels [voxels]<br>Computed by Labelmap Statistics plugin	Labelmap	Voxel count	Number of voxels	voxels	CodeValue:nvoxels|CodingSchemeDesignator:99QIICR|CodeMeaning:Number of voxels	CodeValue:voxels|CodingSchemeDesignator:UCUM|CodeMeaning:voxels		long	
+Volume [mm3]	Volume [mm3]<br>Computed by Labelmap Statistics plugin	Labelmap	Volume mm3	Volume in mm3	mm3	CodeValue:118565006|CodingSchemeDesignator:SCT|CodeMeaning:Volume	CodeValue:mm3|CodingSchemeDesignator:UCUM|CodeMeaning:cubic millimeter		double	
+Volume [cm3]	Volume [cm3]<br>Computed by Labelmap Statistics plugin	Labelmap	Volume cm3	Volume in cm3	cm3	CodeValue:118565006|CodingSchemeDesignator:SCT|CodeMeaning:Volume	CodeValue:cm3|CodingSchemeDesignator:UCUM|CodeMeaning:cubic centimeter	CodeValue:126030|CodingSchemeDesignator:DCM|CodeMeaning:Sum of segmented voxel volumes	double	
+Feret diameter mm [mm]	Feret diameter mm [mm]<br>Computed by Labelmap Statistics plugin	Labelmap	Feret diameter mm	Feret diameter in mm	mm				double	
+Surface area [mm2]	Surface area [mm2]<br>Computed by Labelmap Statistics plugin	Labelmap	Surface mm2	Surface area in mm2	mm2	CodeValue:000247|CodingSchemeDesignator:99CHEMINF|CodeMeaning:Surface area	CodeValue:mm2|CodingSchemeDesignator:UCUM|CodeMeaning:squared millimeters		double	
