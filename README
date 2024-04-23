@@ -1,5 +1,5 @@
 This dataset was obtained throuh Metro North Hospital and Health Service and the Royal Brisbane and Women's Hospital (RBWH). 
-Description: This dataset comprises 63 patients with TOF-MRA scans, containing 85 intracranial aneurysms. 24 of these patients underwent interval surveillance imaging. 
+Description: This dataset comprises 63 patients with TOF-MRA scans, containing 85 intracranial aneurysms each with clinician-segmentation and annotation files. 24 of these patients underwent interval surveillance imaging. 
 
 Please cite the following reference if you use this dataset: added upon publication
 
