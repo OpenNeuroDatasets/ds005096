@@ -1,5 +1,0 @@
-Segment	Number of voxels [voxels] (1)	Volume [mm3] (1)	Volume [cm3] (1)	Feret diameter mm [mm]	Surface area [mm2] (1)	Number of voxels [voxels] (2)	Volume [mm3] (2)	Volume [cm3] (2)	Minimum [1]	Maximum [1]	Mean [1]	Median [1]	Standard Deviation [1]	Surface area [mm2] (2)	Volume [mm3] (3)	Volume [cm3] (3)
-Aneurysm with Parent Artery	51290	2003.51	2.00351	59.8207	2011.85	51290	2003.51	2.00351	180	729	353.058	345	111.945	1895.06	1990.58	1.99058
-Aneurysm1	2575	100.586	0.100586	21.6753	122.516	2575	100.586	0.100586	180	697	395.754	394	125.649	111.844	99.513	0.099513
-Aneurysm2	1058	41.3281	0.0413281	6.50482	70.0547	1058	41.3281	0.0413281	180	496	281.515	267	70.9117	63.4772	39.9611	0.0399611
-Aneurysm3	96	3.75	0.00375	3.26046	14.0519	96	3.75	0.00375	180	378	254.656	245	54.5893	10.0121	2.39376	0.00239376
