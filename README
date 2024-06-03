@@ -1,7 +1,7 @@
 This dataset was obtained through Metro North Hospital and Health Service and the Royal Brisbane and Women's Hospital (RBWH). 
-Description: This dataset comprises 63 patients with TOF-MRA scans, containing 85 intracranial aneurysms each with clinician-segmentation and clinical annotation files (measurements, demographics, imaging parameters). A unique feature of this dataset is that 24 patients contain interval surveillance imaging with clinical anotations for any aneurysm shape changes. 
+Description: This dataset comprises 63 patients with TOF-MRA scans, containing 85 intracranial aneurysms each with clinician-segmentation and clinical annotation files (measurements, demographics, imaging parameters). A unique feature of this dataset is that 24 patients contain interval surveillance imaging with clinical annotations for any aneurysm shape changes. 
 
-Please cite the following reference if you use this dataset: added upon publication
+Please cite the following reference if you use this dataset: "Time-of-Flight MRA of Intracranial Aneurysms with Interval Surveillance, Clinical Segmentation and Annotations" doi: https://doi.org/10.1038/s41597-024-03397-8 
 
 
 ## Dataset Organisation
