@@ -1,0 +1,4 @@
+Segment	Number of voxels [voxels]	Volume [mm3]	Volume [cm3]	Feret diameter mm [mm]	Surface area [mm2]
+Aneurysm with Parent Artery	5709	195.132	0.195132	20.7921	324.277
+Aneurysm Only	877	29.9757	0.0299757	5.18562	57.0652
+Parent Artery	4832	165.157	0.165157	20.7921	296.791
